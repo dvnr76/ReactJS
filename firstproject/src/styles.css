@@ -1,0 +1,13 @@
+h2{
+
+    color:red;
+}
+
+.mydiv{
+    color: red;
+    font-size: 50px;
+    height: 100px;
+    width:100px;
+    background-color: black;
+    border-radius: 5px;
+}

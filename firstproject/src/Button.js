@@ -1,0 +1,21 @@
+function Button( props) {
+    //console.log(props.children)
+  return (
+    <div className="ui cards">
+      <div className="card">
+      <div className="content">
+          {/* {props.children} */}
+
+        <div className="extra content">
+          <div className="ui two buttons">
+            <div className="ui basic green button">{props.sb}</div>
+            <div className="ui basic red button">{props.nb}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+}
+
+export default Button;
